@@ -10,7 +10,7 @@ export class HeaderComponent implements OnInit {
 
   // pageInfo: any = {};
 
-  constructor( public service: InfoPaginaService ) { 
+  constructor(  public service: InfoPaginaService ) { 
 
     // this.pageInfo = service.info;
 
