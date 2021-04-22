@@ -11,7 +11,7 @@ export class InfoTeamService {
   info: InfoTeam = {};
   loaded = false;
 
-  constructor( private http: HttpClient ) { 
+  constructor( private http: HttpClient ) {
 
     // Leer información del servicio
     this.http.get('https://angular-html-636b8-default-rtdb.firebaseio.com/equipo.json')
