@@ -11,6 +11,7 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { AboutComponent } from './pages/about/about.component';
 import { PortafolioItemComponent } from './pages/portafolio-item/portafolio-item.component';
 import { SearchComponent } from './pages/search/search.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { SearchComponent } from './pages/search/search.component';
     PortafolioComponent,
     AboutComponent,
     PortafolioItemComponent,
-    SearchComponent
+    SearchComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
